@@ -70,14 +70,6 @@ export default function Dashboard() {
 
     return (
         <>
-            {/*
-        This example requires updating your template:
-
-        ```
-        <html class="h-full bg-gray-100">
-        <body class="h-full">
-        ```
-      */}
             <div className="min-h-full">
                 <Transition.Root show={sidebarOpen} as={Fragment}>
                     <Dialog as="div" className="fixed inset-0 flex z-40 lg:hidden" onClose={setSidebarOpen}>
@@ -264,7 +256,7 @@ export default function Dashboard() {
                                         <Menu.Button className="max-w-xs bg-white rounded-full flex items-center text-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-500 lg:p-2 lg:rounded-md lg:hover:bg-gray-50">
                                             <img
                                                 className="h-8 w-8 rounded-full"
-                                                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                                                src="https://www.pinclipart.com/picdir/big/559-5594866_necktie-drawing-vector-round-avatar-user-icon-png.png"
                                                 alt=""
                                             />
                                             <span className="hidden ml-3 text-gray-700 text-sm font-medium lg:block">
@@ -332,14 +324,14 @@ export default function Dashboard() {
                                         <div className="flex items-center">
                                             <img
                                                 className="hidden h-16 w-16 rounded-full sm:block"
-                                                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.6&w=256&h=256&q=80"
+                                                src="https://www.pinclipart.com/picdir/big/559-5594866_necktie-drawing-vector-round-avatar-user-icon-png.png"
                                                 alt=""
                                             />
                                             <div>
                                                 <div className="flex items-center">
                                                     <img
                                                         className="h-16 w-16 rounded-full sm:hidden"
-                                                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.6&w=256&h=256&q=80"
+                                                        src="https://www.pinclipart.com/picdir/big/559-5594866_necktie-drawing-vector-round-avatar-user-icon-png.png"
                                                         alt=""
                                                     />
                                                     <h1 className="ml-3 text-2xl font-bold leading-7 text-gray-900 sm:leading-9 sm:truncate">
@@ -368,18 +360,7 @@ export default function Dashboard() {
                                         </div>
                                     </div>
                                     <div className="mt-6 flex space-x-3 md:mt-0 md:ml-4">
-                                        <button
-                                            type="button"
-                                            className="inline-flex items-center px-4 py-2 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-500"
-                                        >
-                                            Add money
-                                        </button>
-                                        <button
-                                            type="button"
-                                            className="inline-flex items-center px-4 py-2 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-cyan-600 hover:bg-cyan-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-500"
-                                        >
-                                            Send money
-                                        </button>
+
                                     </div>
                                 </div>
                             </div>
