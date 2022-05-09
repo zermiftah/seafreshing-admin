@@ -1,9 +1,8 @@
-import logo from './logo.svg';
-
+import Dashboard from "./screens/Dashboard";
 
 function App() {
   return (
-    <h1>halo</h1>
+    <Dashboard />
   );
 }
 
