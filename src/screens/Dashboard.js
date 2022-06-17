@@ -3,7 +3,6 @@ import { Fragment, useState } from 'react'
 import { Dialog, Menu, Transition } from '@headlessui/react'
 import {
     BellIcon,
-    ClockIcon,
     CogIcon,
     CreditCardIcon,
     DocumentReportIcon,
@@ -13,6 +12,9 @@ import {
     ScaleIcon,
     ShieldCheckIcon,
     UserGroupIcon,
+    BriefcaseIcon,
+    TicketIcon,
+    ShoppingBagIcon,
     XIcon,
 } from '@heroicons/react/outline'
 import {
@@ -27,11 +29,13 @@ import logo from "../assets/img/Seafreshing.png";
 
 const navigation = [
     { name: 'Home', href: '#', icon: HomeIcon, current: true },
-    { name: 'History', href: '#', icon: ClockIcon, current: false },
-    { name: 'Balances', href: '#', icon: ScaleIcon, current: false },
-    { name: 'Cards', href: '#', icon: CreditCardIcon, current: false },
-    { name: 'Recipients', href: '#', icon: UserGroupIcon, current: false },
-    { name: 'Reports', href: '#', icon: DocumentReportIcon, current: false },
+    { name: 'User', href: '#', icon: UserGroupIcon, current: false },
+    { name: 'Kiosk', href: '#', icon: OfficeBuildingIcon, current: false },
+    { name: 'Order', href: '#', icon: ShoppingBagIcon, current: false },
+    { name: 'Sales', href: '#', icon: DocumentReportIcon, current: false },
+    { name: 'Disbursement', href: '#', icon: CreditCardIcon, current: false },
+    { name: 'Partner', href: '#', icon: BriefcaseIcon, current: false },
+    { name: 'Promo', href: '#', icon: TicketIcon, current: false },
 ]
 const secondaryNavigation = [
     { name: 'Settings', href: '#', icon: CogIcon },
@@ -345,7 +349,7 @@ export default function Dashboard() {
                                                             className="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400"
                                                             aria-hidden="true"
                                                         />
-                                                        Duke street studio
+                                                        Duke Shop
                                                     </dd>
                                                     <dt className="sr-only">Account status</dt>
                                                     <dd className="mt-3 flex items-center text-sm text-gray-500 font-medium sm:mr-6 sm:mt-0 capitalize">
