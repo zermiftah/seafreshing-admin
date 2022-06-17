@@ -1,9 +1,13 @@
-import Dashboard from "./screens/Dashboard";
-import Setting from "./screens/Setting"
+import Sidebar from "./screens/Sidebar";
+import Setting from "./screens/Setting";
+import User from "./screens/User";
 
 function App() {
   return (
-    <Dashboard />
+    <>
+      <Sidebar />
+      <User />
+    </>
   );
 }
 
